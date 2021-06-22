@@ -34,7 +34,6 @@ It will install:
 * python-json-logger==0.1.11
 * requests
 * mysql-connector-python==8.0.25
-* python-daemon==2.3.0
 
 ## Configuration:
 
