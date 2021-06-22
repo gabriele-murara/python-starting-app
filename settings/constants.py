@@ -1,3 +1,3 @@
 __app_name__ = "My App Program"
 __app_alias__ = "my_app"
-__version__ = "1.0-dev"
+__version__ = "1.0"
