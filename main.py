@@ -4,10 +4,11 @@ from settings import defaults, constants
 from config import Configuration
 from app import App
 
+app_description = "{} ({}) version {} ".format(
+    constants.__app_name__, constants.__app_alias__, constants.__version__
+)
 def getOptions(args=sys.argv[1:]):
-    description = "{} v {} - {}".format(
-        constants.__app_alias__, constants.__version__, constants.__name__
-    )
+    description = app_description
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("-c", "--config", help="Your configuration file.")
     parser.add_argument(
@@ -18,8 +19,7 @@ def getOptions(args=sys.argv[1:]):
 
 options = getOptions()
 if options.version:
-    msg = "{} v {}".format(constants.__app_alias__, constants.__version__)
-    print(msg)
+    print(app_description)
     exit(0)
 
 
