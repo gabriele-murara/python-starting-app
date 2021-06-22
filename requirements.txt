@@ -1,0 +1,4 @@
+wheel
+setuptools
+python-json-logger==0.1.8
+mysql-connector-python==8.0.25
