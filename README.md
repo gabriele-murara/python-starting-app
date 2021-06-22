@@ -6,8 +6,8 @@ Developer: Gabriele Murara: gabriele@murara.computer
 
 ## Introduction
 
-GENERIC APP is the start point for implement a python project with logging and
-database connection.
+GENERIC APP is the start point for implement a python project with arguments
+parser, logging and database connection.
 
 ## Requirements
 
